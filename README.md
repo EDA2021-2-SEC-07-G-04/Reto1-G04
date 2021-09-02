@@ -1,3 +1,6 @@
+->Req. 3 - Daniela Gonzales Espinoza, 202021215, d.gonzaleze@uniandes.edu.co
+->Req. 4 - Sebastián Casanova Ospina, 202115116, s.casanovao@uniandes.edu.co
+
 #ISIS1225 - Librerias de soporte
 
 Este proyecto contiene los Tipos abstractos de datos, estructuras de datos y algoritmos requeridos por el curso ISIS1225-Estructuras de Datos y Algoritmos

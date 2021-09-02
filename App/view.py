@@ -36,8 +36,13 @@ operación solicitada
 
 def printMenu():
     print("Bienvenido")
-    print("1- Cargar información en el catálogo")
-    print("2- ")
+    print("1- Cargar archivos")
+    print("2- Listar cronológicamente los artistas")
+    print("3- Listar cronológicamente las adquisiciones")
+    print("4- Clasificar las obras de un artista por técnica ")
+    print("5- Clasificar las obras por la nacionalidad de sus creadores")
+    print("6- Transportar obras de un departamento")
+    print("7- Proponer una nueva exposición en el museo")
 
 catalog = None
 
@@ -51,7 +56,22 @@ while True:
         print("Cargando información de los archivos ....")
 
     elif int(inputs[0]) == 2:
-        pass
+        print("Cargando la lista...")
+    
+    elif int(inputs[0]) == 3:
+        print("Cargando la lista...")
+    
+    elif int(inputs[0]) == 4:
+        print("Cargando la clasificación")
+    
+    elif int(inputs[0]) == 5:
+        print("Cargando la clasificación...")
+
+    elif int(inputs[0]) == 6:
+        print("Calculando precio...")
+
+    elif int(inputs[0]) == 7:
+        print("Pocesando...")
 
     else:
         sys.exit(0)
